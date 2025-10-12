@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a base font for the site */
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Headings spacing and weight */
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 0.5em;
+    font-weight: bold;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.25em 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table Defaults */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Blockquote style */
+blockquote {
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #ddd;
+    color: #666;
+    font-style: italic;
+}
