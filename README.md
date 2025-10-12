@@ -9,7 +9,7 @@ ALX Project | html & css
 ## 🌐 Live Preview
 
 > *(Optional link if hosted)*  
-[View Live Site](https://knoph1.github.io/alx_html_css/)
+[View Live Site](https://susan-kimemia.github.io/alx_html_css/)
 
 ---
 
