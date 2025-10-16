@@ -242,6 +242,7 @@ header h1 {
 }
 
 .faq-section h2 {
+  color: var(--color-accent);
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -266,6 +267,7 @@ header h1 {
 
 .faq-questions .question p {
   font-size: 0.9rem;
+  line-height: 1.5;
   color: var(--text-main);
 }
 
@@ -285,10 +287,22 @@ footer .socials i {
   margin: 0 10px;
   font-size: 1.2rem;
   color: white;
+  transition: 0.3s;
+}
+
+footer .socials i:hover {
+  color: var(--color-accent);
 }
 
 footer p {
   margin-top: 20px;
   font-size: 0.8rem;
   color: #aaa;
+}
+
+@media (max-width: 768px) {
+  footer .footer-container {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
